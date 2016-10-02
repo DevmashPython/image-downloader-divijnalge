@@ -2,7 +2,7 @@ import re
 import urllib
 i=0
 count=0
-print"enter url"
+print"enter any url"
 url=raw_input()
 fp = urllib.urlopen(url)
 data = fp.read()
