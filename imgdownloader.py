@@ -31,6 +31,6 @@ while i<len(matches):
 	i=i+1
 if count!=0:
 	n=i-count
-	print "\nDue to some reason only %d got images downloaded "%n
+	print "\nDue to some reason only %d images got downloaded "%n
 if count==0:
 	print "\nThe images have been downloaded"
